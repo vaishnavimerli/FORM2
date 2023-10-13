@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Form2</title>
+    <style>
+        #over:hover{
+            background-color:red;
+        }
+        fieldset{
+            background-color: yellow;
+            width:50%; border: 10px solid black;
+            margin-left: 470px ;
+            border-radius: 15%;
+            
+        }
+        legend{
+            font-size: 50px;
+            font-family: cursive;
+            color: crimson;
+        }
+        label{
+            color: darkgreen;
+            font-family:cursive;
+        }
+        #over:hover{
+            background-color: brown;
+        }
+        #over{
+            margin-left: 470px;
+        }
+
+    </style>    
+</head>
+<body>
+    <form action="form2.html">
+        <fieldset>
+            
+            <legend>Personal Details</legend>
+        
+        <label for="f name">First Name</label>
+        <input type="text" id="f name" name="f name">
+        <br><br>
+
+        <label for="m name">Middle Nmae</label>
+        <input type="text" id="m name" name="m name">
+        <br><br>
+
+        <label for="l name">Last Name</label>
+        <input type="text" id="l name" name="l name">
+        <br><br>
+
+        <label for="email">E mail</label>
+        <input type="email" id="email"name="email">
+        <br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" id="dob"name="dob">
+        <br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Educational Details</legend>
+
+        <label for="">Department</label>
+        <br><br>
+
+
+        <input type="radio" id="cs"name="dept">
+        <label for="cs">cs</label>
+
+
+        <input type="radio" id="civil"name="dept">
+        <label for="civil">civil</label>
+
+
+        <input type="radio" id="mech"name="dept">
+        <label for="mech">mech</label>
+
+        <br><br>
+
+        <label for="YOG">Year Of Graduation</label>
+        <input list="YOG" name="YOP" id="YOP">
+
+        <datalist id="YOG">
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+       </datalist>
+       <br><br>
+      
+
+       <label for="Skills">Skills</label>
+       <br><br>
+
+
+       <input type="radio" id="HTML"name="Skills">
+       <label for="HTML">HTML</label>
+       <br><br>
+       <input type="radio" id="CSS"name="Skills">
+       <label for="CSS">CSS</label>
+       <br><br>
+
+       <input type="radio" id="JAVA SCRIPT"name="Skills">
+       <label for="JAVA SCRIPT">JAVA SCRIPT</label>
+       <br><br>
+
+        </fieldset>
+    <input id="over" type="submit">
+</form>
+    
+
+    
+</body>
+</html>
